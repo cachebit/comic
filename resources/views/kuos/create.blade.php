@@ -2,6 +2,9 @@
 
 @section('content')
 <div class="card">
+  <div class="card-header">
+    <h3 class="card-header-title">扩列信息</h3>
+  </div>
 
   <div class="card-content">
 
@@ -24,7 +27,7 @@
         </div>
 
         <div class="field">
-          <label class="label">二维码</label>
+          <label class="label">QQ二维码</label>
           <p class="control">
             <input type="file" name="" value="">
           </p>
@@ -50,6 +53,13 @@
 
         <div class="field">
           <label class="label">QQ号</label>
+          <p class="control">
+            <input class="input" type="text" name="" value="">
+          </p>
+        </div>
+
+        <div class="field">
+          <label class="label">标签</label>
           <p class="control">
             <input class="input" type="text" name="" value="">
           </p>
