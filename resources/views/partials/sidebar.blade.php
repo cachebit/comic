@@ -13,7 +13,7 @@
             <li>立即自主扩列</li>
             <li>立即自主扩列</li>
           </ul>
-          <button class="button is-danger">点我一下>>发布扩列!</button>
+          <a class="button is-danger" href="{{ route('kuos.create') }}">点我一下>>发布扩列!</a>
           <hr>
           <h3>扩列须知：</h3>
           <p>请加扩列墙QQ：7654287</p>
@@ -23,6 +23,7 @@
           <p>微信公众号：7654287</p>
           <p>facebook：7654287</p>
           <p>twitter：7654287</p>
+          <p>lofter：safaseg</p>
           <hr>
           <h3 class="title">邮箱订阅</h3>
           <p>输入你的邮箱，订阅本站最新扩列信息。</p>

@@ -1,15 +1,15 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
+//pages
 Route::get('/', 'PagesController@home')->name('home');
+Route::get('about', 'PagesController@about')->name('about');
+
+//kuos
 Route::get('kuos/show', 'KuosController@show')->name('kuos.show');
+Route::get('kuos', 'KuosController@index')->name('kuos.index');
+Route::get('kuos/create', 'KuosController@create')->name('kuos.create');
+
+//users and sessions
+Route::get('signin', 'SessionsController@create')->name('signin');
+Route::get('signup', 'UsersController@create')->name('signup');
